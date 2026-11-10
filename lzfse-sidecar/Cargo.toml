@@ -1,0 +1,13 @@
+[package]
+name = "lzfse-sidecar"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Tiny stdio tool: LZFSE stream in on stdin, raw bytes out on stdout"
+
+[dependencies]
+lzfse_rust = "0.2.1"
+
+[profile.release]
+opt-level = 2
+panic = "abort"

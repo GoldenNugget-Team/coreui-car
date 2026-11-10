@@ -1,0 +1,20 @@
+[project]
+name = "coreui-car"
+version = "0.1.0"
+description = "Pure-Python reader and writer for Apple CoreUI compiled asset catalogs (.car)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Awesome Null" }]
+keywords = ["apple", "coreui", "car", "asset-catalog", "bom", "ios", "xcode"]
+
+[project.urls]
+Reference = "https://github.com/skytoup/car-parser"
+Format = "https://dbg.re/posts/car-file-format/"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["coreui_car"]
